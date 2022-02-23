@@ -1,0 +1,19 @@
+body{
+	background-color:#E5E5E5;
+	margin: 0 auto;
+}
+
+@media all and (min-width: 1024px)
+{
+    .container{
+	max-width: 900px;
+	margin:0 auto;
+}
+}
+
+
+.container
+    {
+        width: auto;
+        margin: 0 auto;
+    }
