@@ -88,23 +88,52 @@ img{
 }
 
 }
-.navig{border:1px solid blue;
+.navig{
   display: flex;
   justify-content: space-between;
   align-items: center;
   }
 
 .menu{
-  padding-right: 35%;
+  padding-right: 30%;
   a{
     text-decoration: none;
     color: black;
     padding:5px;
-    font-family: sans-serif;
-    
-    
+    font-family: sans-serif;    
   }
 }
+
+.but1{
+  border:3px solid #258AFF;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: auto;
+  &:hover{
+    background-color: #258AFF;
+    a{
+      color:white;}
+  }
+  a{
+    font-size: 10px;
+    text-decoration: none;
+    color:#258AFF;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+  
+  }
+}
+
+
+// @mixin bouton{
+  
+// border:1px solid blue;
+
+// }
 
 
 
