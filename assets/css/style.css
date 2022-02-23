@@ -31,18 +31,37 @@ img {
     font-size: 30px; }
 
 .navig {
-  border: 1px solid blue;
   display: flex;
   justify-content: space-between;
   align-items: center; }
 
 .menu {
-  padding-right: 35%; }
+  padding-right: 30%; }
   .menu a {
     text-decoration: none;
     color: black;
     padding: 5px;
     font-family: sans-serif; }
+
+.but1 {
+  border: 3px solid #258AFF;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: auto; }
+  .but1:hover {
+    background-color: #258AFF; }
+    .but1:hover a {
+      color: white; }
+  .but1 a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #258AFF;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold; }
 
 .partie4 {
   display: flex;
