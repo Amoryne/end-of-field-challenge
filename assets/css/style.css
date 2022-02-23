@@ -1,6 +1,48 @@
+@media all and (max-width: 1024px) {
+  nav {
+    display: none; } }
 body {
-  margin: 0;
-  border: 0; }
+  background-color: #E5E5E5;
+  width: auto; }
+
+.container {
+  max-width: auto;
+  margin: 10%; }
+
+@media all and (min-width: 1024px) {
+  body {
+    margin: 0 auto; }
+
+  .container {
+    margin: 0 auto;
+    max-width: 900px;
+    padding-top: 100px; } }
+img {
+  max-width: 100%;
+  height: auto; }
+
+.shade {
+  background-color: #E5E5E5;
+  border: none; }
+  .shade a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 30px; }
+
+.navig {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.menu {
+  padding-right: 35%; }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-family: sans-serif; }
 
 .partie4 {
   display: flex;
