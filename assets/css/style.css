@@ -32,10 +32,22 @@ body {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  background-color: #FFFFFF;
+  margin: 10px;
+  height: 250px;
+  width: 315px;
 }
 
 .partie4 .partie4-1 .font15px {
   font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 32px;
+}
+
+.partie4 .partie4-1 .jobgris {
+  color: #666666;
+  font-size: 12px;
+  margin-top: -20px;
 }
 
 .partie4 .partie4-1-mini {
@@ -52,10 +64,17 @@ body {
   -ms-flex-line-pack: center;
       align-content: center;
   gap: 10px;
+  width: 180px;
+}
+
+.partie4 .partie4-1-mini .imgicons {
+  padding-top: 15px;
+  width: 43px;
+  height: 43px;
 }
 
 .partie4 .imglogo {
-  width: 150px;
+  width: 100px;
   height: 27.71px;
 }
 
@@ -70,8 +89,7 @@ body {
 .partie4 ul li {
   width: 200px;
   display: inline;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .partie4 h2 {
