@@ -8,70 +8,75 @@ body {
   justify-content: center;
   align-content: center;
   margin-left: 67px;
-  .partie4-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    background-color: #FFFFFF;
-    margin: 10px;
-    height: 250px;
-    width: 315px;
-    .font15px {
-      font-size: 15px;
-      margin-bottom: 20px;
-      line-height: 32px;
+  div {
+    div {
+      .h2blue {
+        color: #258aff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px;
+      }
+      .grandGras {
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .gris {
+        color: #666666;
+        font-size: 15px;
+        line-height: 32px;
+      }
     }
-    .jobgris{
+    .partie4-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      background-color: #ffffff;
+      margin: 10px;
+      height: 250px;
+      width: 315px;
+      .font15px {
+        font-size: 15px;
+        margin-bottom: 20px;
+        line-height: 32px;
+      }
+      .jobgris {
         color: #666666;
         font-size: 12px;
         margin-top: -20px;
       }
-  }
-  .partie4-1-mini {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-content: center;
-    gap: 10px;
-    width: 180px;
-    
-    .imgicons {
-      padding-top: 15px;
-      width: 43px;
-      height: 43px;
+      .partie4-1-mini {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-content: center;
+        gap: 10px;
+        width: 180px;
+        div {
+          .imgicons {
+            padding-top: 15px;
+            width: 43px;
+            height: 43px;
+          }
+        }
+      }
     }
   }
-  .imglogo {
-    width: 100px;
-    height: 27.71px;
-  }
-  .list {
-    list-style-type: none;
-    margin-left: -12px;
-    margin-right: 55px;
-    filter: grayscale(1);
-  }
-  ul {
-    li {
-      width: 200px;
-      display: inline;
-      padding-left: 10px;
+  div {
+    .list {
+      list-style-type: none;
+      margin-left: -12px;
+      margin-right: 55px;
+      filter: grayscale(1);
+      .imglogo {
+        width: 100px;
+        height: 27.71px;
+      }
+      .listlogo {
+        width: 200px;
+        display: inline;
+        padding-left: 10px;
+      }
     }
-  }
-  h2 {
-    color: #258aff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
-  }
-  .grandGras {
-    font-weight: bold;
-    font-size: 30px;
-  }
-  .gris {
-    color: #666666;
-    font-size: 15px;
-    line-height: 32px;
   }
 }
