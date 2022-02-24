@@ -404,4 +404,9 @@ body {
   color: #878b90;
   font-size: 12px;
 }
+
+.footlogo {
+  -webkit-filter: invert(49%) sepia(93%) saturate(3297%) hue-rotate(196deg) brightness(100%) contrast(101%);
+          filter: invert(49%) sepia(93%) saturate(3297%) hue-rotate(196deg) brightness(100%) contrast(101%);
+}
 /*# sourceMappingURL=style.css.map */
