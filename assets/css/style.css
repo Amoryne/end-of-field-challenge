@@ -148,6 +148,112 @@ img {
   font-size: 15px;
   font-family: sans-serif; }
 
+.titre1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .titre1 img {
+    height: 30px;
+    filter: invert(56%) sepia(73%) saturate(4337%) hue-rotate(163deg) brightness(97%) contrast(101%); }
+  .titre1 h3 {
+    font-family: sans-serif;
+    border: 1px solid blue;
+    padding-left: 10px;
+    margin-bottom: 8px; }
+
+.tr {
+  border: 1px solid red;
+  margin-left: 40px;
+  padding: 0px;
+  width: auto; }
+  .tr p {
+    font-family: sans-serif;
+    color: grey;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    margin: 0px; }
+
+@media all and (min-width: 1024px) {
+  .tableau {
+    display: flex;
+    flex-direction: columns;
+    width: auto;
+    margin-top: 150px; }
+    .tableau div, .tableau p {
+      border: 1px solid green; }
+    .tableau .tr {
+      margin-left: 30px;
+      margin-top: 10px; }
+      .tableau .tr p {
+        font-size: 15px;
+        width: auto; } }
+.fondbleu {
+  margin-top: 100px;
+  background-color: #258AFF; }
+
+.tel {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 400px; }
+
+.textimg {
+  color: white;
+  margin-bottom: 100px;
+  font-family: sans-serif; }
+  .textimg .titrecontent {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold; }
+  .textimg h2 {
+    font-size: 30px; }
+  .textimg .content {
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    opacity: 0.5; }
+  .textimg button {
+    border: 3px solid #258AFF;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    width: auto;
+    border-radius: 7px;
+    padding: 3%;
+    width: 200px; }
+    .textimg button a {
+      font-size: 12px;
+      text-decoration: none;
+      color: #258AFF;
+      font-family: sans-serif;
+      letter-spacing: 1px;
+      text-align: center;
+      font-weight: bold; }
+    .textimg button:hover {
+      background-color: #258AFF; }
+      .textimg button:hover a {
+        color: white; }
+    .textimg button:hover {
+      border: 1px solid white; }
+
+@media all and (min-width: 1024px) {
+  .contenu2 {
+    border: 1px solid red;
+    display: flex;
+    align-items: center; }
+    .contenu2 .tel {
+      margin-right: 80px; }
+    .contenu2 .textimg {
+      margin-top: 150px; }
+    .contenu2 h2 {
+      font-size: 30px; }
+    .contenu2 .titrecontent {
+      font-size: 15px; }
+    .contenu2 .content {
+      font-size: 12px;
+      line-height: 28px; } }
 .partie4 {
   display: flex;
   flex-direction: column;
