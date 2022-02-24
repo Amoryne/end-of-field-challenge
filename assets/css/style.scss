@@ -46,17 +46,40 @@ nav{
 }
 }
 ///////////
+@mixin bouton{  
+  border:3px solid #258AFF;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: auto; 
+  a{
+font-size: 12px;
+    text-decoration: none;
+    color:#258AFF;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+    }
+&:hover{
+    background-color: #258AFF;
+    a{color: white;}
+    }
 
+}
 
 body{
 	background-color:#E5E5E5;
-	width:auto;
+	width:0 auto;
 	
 
 }
 .container{
-	max-width: auto;
+	max-width:0 auto;
 	margin: 10%;
+  border:1px solid green;
+  position: relative;
 }
 
 @media all and (min-width: 1024px)
@@ -67,7 +90,7 @@ body{
    .container{
 	margin:0 auto;
 	max-width: 900px;
-  padding-top: 100px;
+  
    }
 }
 
@@ -83,11 +106,13 @@ img{
   color: black;
   font-family: sans-serif;
   font-size: 30px;
-
-
+}}
+@media all and(max-width: 600px){
+  .shade{width: auto;
+  }
 }
 
-}
+
 .navig{
   display: flex;
   justify-content: space-between;
@@ -100,40 +125,118 @@ img{
     text-decoration: none;
     color: black;
     padding:5px;
-    font-family: sans-serif;    
+    font-family: sans-serif; 
+    &:hover{
+    color:blue; 
+   } 
   }
 }
 
 .but1{
-  border:3px solid #258AFF;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  width: auto;
-  &:hover{
-    background-color: #258AFF;
-    a{
-      color:white;}
-  }
-  a{
-    font-size: 10px;
-    text-decoration: none;
-    color:#258AFF;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    text-align: center;
-    font-weight: bold;
+@include bouton;
+transition: background 0.3s ease-in, transform 0.2s ease-in-out;
+&:hover{transform:scale(1.1);}
+}
+@media all and (max-width: 500px){
+  .but1{display: none;}
+}
+
+.entete{
   
+  text-align: center;
+  font-family: sans-serif;
+  h1{font-size:30px;
+    width:auto;
+  }
+  p{
+    color:grey;
+    text-align: center;
+
+
+  }
+}
+@media all and (min-width: 1024px){
+  .entete{width: 60%;
+    padding-top: 40px;
+    
+
+    .present{
+      padding-top: 50px;
+
+    }
+    .create{
+      width:57%;
+      margin-left:180px;
+      text-align: center;
+      font-size: 15px;
+
+    }
+   h1{
+    font-size:60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
   }
 }
 
 
-// @mixin bouton{
-  
-// border:1px solid blue;
 
-// }
+.email{
+  display: flex;
+  border:1px solid red;
+  justify-content: center;
+  align-items:space-between;
+  box-sizing:border-box;
+  input[type=submit]{background-color: orangered;
+    border:1px solid orangered;
+    height: auto;
+    padding: 10px;
+    color:white;
+    border-radius: 8px;
+    font-size:auto;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+  }
+  input[type=email]{
+    border:none;
+    width: auto;
+    min-width: 10px;
+
+  }
+}
+@media all and(min-width: 1024px)
+{
+  .email{
+    border:1px solid blue;
+   width:auto;
+   height: auto;
+   display: flex;
+   margin-top:30px;
+   input[type=submit]{
+    
+    padding: 15px;
+    color:white;
+    border-radius: 8px;
+    font-size:auto;
+    text-align: center;
+    font-weight: bold;
+    margin-left:1%;
+  }
+  input[type=email]{
+    padding: 10px;
+    width: auto;
+    border:1px solid white;
+    border-radius:5px; }
+  }
+}
+.soustitre{text-align:center;
+    color: grey;
+    font-size: 15px;
+    font-family: sans-serif;}
+
+
+
 
 
 
