@@ -232,4 +232,176 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+#Partie5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  background-color: #192f48;
+}
+
+#Partie5 .headp5 {
+  margin-left: 40px;
+}
+
+#Partie5 .headp5 .h2white {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#Partie5 .headp5 .grandblanc {
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#Partie5 .basic {
+  background-color: #2b405a;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 300px;
+  height: 580px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#Partie5 .basic .basictitle {
+  color: #e5e5e5;
+  text-transform: uppercase;
+}
+
+#Partie5 .basic p {
+  padding-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+#Partie5 .basic .basicline {
+  font-size: 12px;
+  width: 230px;
+  color: #e5e5e5;
+}
+
+#Partie5 .basic ul {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  list-style: none;
+}
+
+#Partie5 .basic ul li:before {
+  content: "\1F5F8";
+  padding-right: 15px;
+}
+
+#Partie5 .basic ul li {
+  padding-top: 20px;
+}
+
+#Partie5 .basic ul li span {
+  text-decoration: line-through;
+  color: #878b90;
+}
+
+#Partie5 .basic button {
+  margin-left: 40px;
+  color: #ffffff;
+  background-color: #258aff;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  border: none;
+}
+
+#Partie5 .basic button:hover {
+  background-color: #1f7be4;
+}
+
+#Partie5 .basic .basicgris {
+  color: #878b90;
+  font-size: 12px;
+}
+
+#Partie5 .pro {
+  background-color: #ffffff;
+  color: #1f1f1f;
+  border-radius: 5px;
+  width: 300px;
+  height: 580px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#Partie5 .pro .protitle {
+  color: #1f1f1f;
+  text-transform: uppercase;
+}
+
+#Partie5 .pro .protitle .pop {
+  background-color: #4eab08;
+  color: #ffffff;
+  padding: 8px;
+  font-size: 13px;
+  border-radius: 15px;
+  margin-left: 130px;
+}
+
+#Partie5 .pro p {
+  padding-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+#Partie5 .pro .proline {
+  font-size: 12px;
+  width: 230px;
+  color: #b3b3b3;
+}
+
+#Partie5 .pro ul {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  list-style-type: none;
+}
+
+#Partie5 .pro ul li:before {
+  content: "\1F5F8";
+  padding-right: 15px;
+}
+
+#Partie5 .pro ul li {
+  padding-top: 20px;
+}
+
+#Partie5 .pro ul li span {
+  text-decoration: line-through;
+  color: #878b90;
+}
+
+#Partie5 .pro button {
+  margin-left: 40px;
+  color: #ffffff;
+  background-color: #fc593b;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  border: none;
+}
+
+#Partie5 .pro button:hover {
+  background-color: #d64a32;
+}
+
+#Partie5 .pro .progris {
+  color: #878b90;
+  font-size: 12px;
+}
 /*# sourceMappingURL=style.css.map */
