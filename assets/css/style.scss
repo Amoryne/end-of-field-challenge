@@ -320,10 +320,11 @@ display:block;
   button{
     @include bouton;
     border-radius: 7px;
-
+  
     &:hover{border:1px solid white;}
    padding: 3%;
-   width: 200px;
+   
+
   }
 }
 
@@ -343,6 +344,43 @@ display:block;
 }
 
 }
+
+.partie3{
+  font-family: sans-serif;
+  .part3logo{text-align: center;
+  padding: 10%;}
+  .part3text{
+    p:first-child
+    {color:#258AFF;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: bold}
+    p:last-child{
+      line-height: 40px;
+      color:grey;
+    }
+    h2{font-size:25px;
+      line-height: 40px;
+    }
+  }
+
+  .photos2{width:100%;
+    height: auto;
+    box-sizing: border-box;
+    max-width: 400px;
+  -webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.58); 
+box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.58);
+}
+}
+
+.part3logo{
+  .logo1{
+  background-color: yellow;
+  border:1px solid yellow;
+  border-radius:100%;
+  padding:3%;
+  filter:invert(100%);
+  }}
 
 
 
