@@ -405,6 +405,77 @@ body {
   font-size: 12px;
 }
 
+#Page6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Page6 .foot {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#Page6 .foot .gris12px {
+  margin-top: 30px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+#Page6 .foot div .footlistlogo {
+  list-style-type: none;
+  width: 150px;
+  padding: 0;
+}
+
+#Page6 .foot div .footlistlogo li {
+  display: inline;
+  margin-right: 15px;
+}
+
+#Page6 .footlien {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 40px;
+}
+
+#Page6 .footlien div .foothead {
+  color: #666666;
+}
+
+#Page6 .footlien div .footlist {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#Page6 .footlien div .footlist a:link {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: bold;
+}
+
+#Page6 .footlien div .footlist a:visited {
+  text-decoration: none;
+}
+
+#Page6 .footlien div .footlist a:hover {
+  text-decoration: none;
+}
+
+#Page6 .footlien div .footlist a:active {
+  text-decoration: none;
+}
+
 .footlogo {
   -webkit-filter: invert(49%) sepia(93%) saturate(3297%) hue-rotate(196deg) brightness(100%) contrast(101%);
           filter: invert(49%) sepia(93%) saturate(3297%) hue-rotate(196deg) brightness(100%) contrast(101%);
