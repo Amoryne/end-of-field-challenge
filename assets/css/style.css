@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #Page4 {
   background-color: #e3eef8;
 }
@@ -32,26 +36,26 @@
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin-left: 67px;
+  margin-left: 30px;
 }
 
 #Page4 .partie4 div div {
   margin-bottom: 10px;
 }
 
-#Page4 .partie4 div div div .h2blue {
+#Page4 .partie4 div div .h2blue {
   color: #258aff;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 15px;
 }
 
-#Page4 .partie4 div div div .grandGras {
+#Page4 .partie4 div div .grandGras {
   font-weight: bold;
   font-size: 30px;
 }
 
-#Page4 .partie4 div div div .gris {
+#Page4 .partie4 div div .gris {
   color: #666666;
   font-size: 15px;
   line-height: 32px;
@@ -59,7 +63,7 @@
   margin-right: 5px;
 }
 
-#Page4 .partie4 div div .partie4-1 {
+#Page4 .partie4 div .partie4-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,21 +82,21 @@
   padding-top: 5px;
 }
 
-#Page4 .partie4 div div .partie4-1 .font15px {
+#Page4 .partie4 div .partie4-1 .font15px {
   font-size: 15px;
   margin-bottom: 20px;
   line-height: 32px;
   margin-left: 10px;
 }
 
-#Page4 .partie4 div div .partie4-1 .jobgris {
+#Page4 .partie4 div .partie4-1 .jobgris {
   color: #666666;
   font-size: 12px;
   margin-top: -20px;
   margin-left: 10px;
 }
 
-#Page4 .partie4 div div .partie4-1 .partie4-1-mini {
+#Page4 .partie4 div .partie4-1 .partie4-1-mini {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,13 +113,13 @@
   margin-left: 10px;
 }
 
-#Page4 .partie4 div div .partie4-1 .partie4-1-mini div .imgicons {
+#Page4 .partie4 div .partie4-1 .partie4-1-mini div .imgicons {
   padding-top: 15px;
   width: 43px;
   height: 43px;
 }
 
-#Page4 .partie4 div div .list {
+#Page4 .partie4 div .list {
   margin-top: 50px;
   margin-bottom: 50px;
   list-style-type: none;
@@ -123,13 +127,13 @@
           filter: grayscale(1);
 }
 
-#Page4 .partie4 div div .list .imglogo {
+#Page4 .partie4 div .list .imglogo {
   width: 100px;
   height: 27.71px;
   padding-top: 10px;
 }
 
-#Page4 .partie4 div div .list .listlogo {
+#Page4 .partie4 div .list .listlogo {
   display: inline;
   padding-left: 10px;
   padding-right: 10px;
