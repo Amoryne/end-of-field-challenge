@@ -213,6 +213,60 @@ body {
   height: 43px;
 }
 
+#Page4 .partie4 div .partie4-1-bis {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #ffffff;
+  height: 250px;
+  width: 315px;
+  padding-top: 5px;
+}
+
+#Page4 .partie4 div .partie4-1-bis .font15px {
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+
+#Page4 .partie4 div .partie4-1-bis .jobgris {
+  color: #666666;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+#Page4 .partie4 div .partie4-1-bis .partie4-1-mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 200px;
+  margin-left: 10px;
+}
+
+#Page4 .partie4 div .partie4-1-bis .partie4-1-mini div .imgicons {
+  padding-top: 15px;
+  width: 43px;
+  height: 43px;
+}
+
 #Page4 .partie4 div .list {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -455,6 +509,7 @@ body {
 
 #Page6 .footlien div .footlist {
   list-style-type: none;
+  font-size: 15px;
   padding: 0px;
 }
 

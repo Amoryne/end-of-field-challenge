@@ -203,6 +203,44 @@ body {
           }
         }
       }
+      .partie4-1-bis {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        background-color: #ffffff;
+        height: 250px;
+        width: 315px;
+        padding-top: 5px;
+        .font15px {
+          font-size: 15px;
+          margin-bottom: 20px;
+          line-height: 32px;
+          margin-left: 10px;
+        }
+        .jobgris {
+          color: #666666;
+          font-size: 12px;
+          margin-top: -20px;
+          margin-left: 10px;
+        }
+        .partie4-1-mini {
+          display: flex;
+          flex-direction: row;
+          justify-content: left;
+          align-content: center;
+          width: 200px;
+          margin-left: 10px;
+          div {
+            .imgicons {
+              padding-top: 15px;
+              width: 43px;
+              height: 43px;
+            }
+          }
+        }
+      }
+      
     }
     div {
       .list {
@@ -399,6 +437,7 @@ body {
       }
       .footlist {
         list-style-type: none;
+        font-size: 15px;
         a:link {
           text-decoration: none;
           color: #1f1f1f;
