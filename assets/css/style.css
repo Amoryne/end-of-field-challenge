@@ -197,9 +197,13 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 400px; }
+  max-width: 400px;
+  transform: translateY(-120px);
+  border: 1px solid red;
+  margin-bottom: -120px; }
 
 .textimg {
+  border: 1px solid red;
   color: white;
   margin-bottom: 100px;
   font-family: sans-serif; }
@@ -241,9 +245,10 @@ img {
   .contenu2 {
     border: 1px solid red;
     display: flex;
-    align-items: center; }
+    align-items: flex-start; }
     .contenu2 .tel {
-      margin-right: 80px; }
+      margin-right: 80px;
+      transform: translate(0px); }
     .contenu2 .textimg {
       margin-top: 150px; }
     .contenu2 h2 {
