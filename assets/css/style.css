@@ -289,63 +289,256 @@ img {
   padding: 3%;
   filter: invert(100%); }
 
-.partie4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  margin-left: 67px; }
-  .partie4 div div .h2blue {
-    color: #258aff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px; }
-  .partie4 div div .grandGras {
-    font-weight: bold;
-    font-size: 30px; }
-  .partie4 div div .gris {
-    color: #666666;
-    font-size: 15px;
-    line-height: 32px; }
-  .partie4 div .partie4-1 {
+#Page4 {
+  background-color: #e3eef8; }
+  #Page4 .partie4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    background-color: #ffffff;
-    margin: 10px;
-    height: 250px;
-    width: 315px; }
-    .partie4 div .partie4-1 .font15px {
-      font-size: 15px;
-      margin-bottom: 20px;
-      line-height: 32px; }
-    .partie4 div .partie4-1 .jobgris {
-      color: #666666;
-      font-size: 12px;
-      margin-top: -20px; }
-    .partie4 div .partie4-1 .partie4-1-mini {
+    align-content: center; }
+    #Page4 .partie4 div div {
+      margin-bottom: 10px; }
+      #Page4 .partie4 div div .h2blue {
+        color: #258aff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px; }
+      #Page4 .partie4 div div .grandGras {
+        font-weight: bold;
+        font-size: 30px; }
+      #Page4 .partie4 div div .gris {
+        color: #666666;
+        font-size: 15px;
+        line-height: 32px;
+        margin-left: 5px;
+        margin-right: 5px; }
+    #Page4 .partie4 div .partie4-1 {
       display: flex;
-      flex-direction: row;
-      justify-content: left;
+      flex-direction: column;
+      justify-content: center;
       align-content: center;
-      gap: 10px;
-      width: 180px; }
-      .partie4 div .partie4-1 .partie4-1-mini div .imgicons {
-        padding-top: 15px;
-        width: 43px;
-        height: 43px; }
-  .partie4 div .list {
-    list-style-type: none;
-    margin-left: -12px;
-    margin-right: 55px;
-    filter: grayscale(1); }
-    .partie4 div .list .imglogo {
-      width: 100px;
-      height: 27.71px; }
-    .partie4 div .list .listlogo {
-      width: 200px;
-      display: inline;
-      padding-left: 10px; }
+      background-color: #ffffff;
+      height: 250px;
+      width: auto;
+      padding-top: 5px; }
+      #Page4 .partie4 div .partie4-1 .font15px {
+        font-size: 15px;
+        margin-bottom: 20px;
+        line-height: 32px;
+        margin-left: 10px; }
+      #Page4 .partie4 div .partie4-1 .jobgris {
+        color: #666666;
+        font-size: 12px;
+        margin-top: -20px;
+        margin-left: 10px; }
+      #Page4 .partie4 div .partie4-1 .partie4-1-mini {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-content: center;
+        width: 200px;
+        margin-left: 10px; }
+        #Page4 .partie4 div .partie4-1 .partie4-1-mini div .imgicons {
+          padding-top: 15px;
+          width: 43px;
+          height: 43px; }
+    #Page4 .partie4 div .partie4-1-bis {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      background-color: #ffffff;
+      width: auto;
+      padding-top: 5px; }
+      #Page4 .partie4 div .partie4-1-bis .font15px {
+        font-size: 15px;
+        margin-bottom: 20px;
+        line-height: 32px;
+        margin-left: 10px; }
+      #Page4 .partie4 div .partie4-1-bis .jobgris {
+        color: #666666;
+        font-size: 12px;
+        margin-top: -20px;
+        margin-left: 10px; }
+      #Page4 .partie4 div .partie4-1-bis .partie4-1-mini {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-content: center;
+        width: auto;
+        margin-left: 10px; }
+        #Page4 .partie4 div .partie4-1-bis .partie4-1-mini div .imgicons {
+          padding-top: 15px;
+          width: 43px;
+          height: 43px; }
+    #Page4 .partie4 div .list {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      list-style-type: none;
+      filter: grayscale(1); }
+      #Page4 .partie4 div .list .imglogo {
+        width: 100px;
+        height: 27.71px;
+        padding-top: 10px; }
+      #Page4 .partie4 div .list .listlogo {
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px; }
+
+#Partie5 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  background-color: #192f48; }
+  #Partie5 .headp5 {
+    margin-left: 40px; }
+    #Partie5 .headp5 .h2white {
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 15px; }
+    #Partie5 .headp5 .grandblanc {
+      font-weight: bold;
+      font-size: 25px;
+      color: #ffffff; }
+  #Partie5 .basic {
+    background-color: #2b405a;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 300px;
+    height: 580px;
+    margin-left: 40px;
+    margin-right: 40px; }
+    #Partie5 .basic .basictitle {
+      color: #e5e5e5;
+      text-transform: uppercase; }
+    #Partie5 .basic p {
+      padding-top: 30px;
+      margin-left: 40px;
+      margin-bottom: 20px; }
+    #Partie5 .basic .basicline {
+      font-size: 12px;
+      width: 230px;
+      color: #e5e5e5; }
+    #Partie5 .basic ul {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      list-style: none; }
+      #Partie5 .basic ul li:before {
+        content: "\1F5F8";
+        padding-right: 15px; }
+      #Partie5 .basic ul li {
+        padding-top: 20px; }
+        #Partie5 .basic ul li span {
+          text-decoration: line-through;
+          color: #878b90; }
+    #Partie5 .basic button {
+      margin-left: 40px;
+      color: #ffffff;
+      background-color: #258aff;
+      border-radius: 8px;
+      padding: 12px;
+      width: 180px;
+      border: none; }
+      #Partie5 .basic button:hover {
+        background-color: #1f7be4; }
+    #Partie5 .basic .basicgris {
+      color: #878b90;
+      font-size: 12px; }
+  #Partie5 .pro {
+    background-color: #ffffff;
+    color: #1f1f1f;
+    border-radius: 5px;
+    width: 300px;
+    height: 580px;
+    margin-left: 40px;
+    margin-right: 40px; }
+    #Partie5 .pro .protitle {
+      color: #1f1f1f;
+      text-transform: uppercase; }
+      #Partie5 .pro .protitle .pop {
+        background-color: #4eab08;
+        color: #ffffff;
+        padding: 8px;
+        font-size: 13px;
+        border-radius: 15px;
+        margin-left: 130px; }
+    #Partie5 .pro p {
+      padding-top: 30px;
+      margin-left: 40px;
+      margin-bottom: 20px; }
+    #Partie5 .pro .proline {
+      font-size: 12px;
+      width: 230px;
+      color: #b3b3b3; }
+    #Partie5 .pro ul {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      list-style-type: none; }
+      #Partie5 .pro ul li:before {
+        content: "\1F5F8";
+        padding-right: 15px; }
+      #Partie5 .pro ul li {
+        padding-top: 20px; }
+        #Partie5 .pro ul li span {
+          text-decoration: line-through;
+          color: #878b90; }
+    #Partie5 .pro button {
+      margin-left: 40px;
+      color: #ffffff;
+      background-color: #fc593b;
+      border-radius: 8px;
+      padding: 12px;
+      width: 180px;
+      border: none; }
+      #Partie5 .pro button:hover {
+        background-color: #d64a32; }
+    #Partie5 .pro .progris {
+      color: #878b90;
+      font-size: 12px; }
+
+#Page6 {
+  display: flex;
+  flex-direction: column; }
+  #Page6 .foot {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px; }
+    #Page6 .foot .gris12px {
+      margin-top: 30px;
+      color: #666666;
+      margin-bottom: 30px; }
+    #Page6 .foot div .footlistlogo {
+      list-style-type: none;
+      width: 150px;
+      padding: 0; }
+      #Page6 .foot div .footlistlogo li {
+        display: inline;
+        margin-right: 15px; }
+  #Page6 .footlien {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px; }
+    #Page6 .footlien div .foothead {
+      color: #666666; }
+    #Page6 .footlien div .footlist {
+      list-style-type: none;
+      font-size: 15px;
+      padding: 0px; }
+      #Page6 .footlien div .footlist a:link {
+        text-decoration: none;
+        color: #1f1f1f;
+        font-weight: bold; }
+      #Page6 .footlien div .footlist a:visited {
+        text-decoration: none; }
+      #Page6 .footlien div .footlist a:hover {
+        text-decoration: none; }
+      #Page6 .footlien div .footlist a:active {
+        text-decoration: none; }
+
+.footlogo {
+  filter: invert(49%) sepia(93%) saturate(3297%) hue-rotate(196deg) brightness(100%) contrast(101%); }
 
 /*# sourceMappingURL=style.css.map */
