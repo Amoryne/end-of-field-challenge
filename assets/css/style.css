@@ -85,6 +85,9 @@ img {
     color: grey;
     text-align: center; }
 
+.shadeicon {
+  width: 50px; }
+
 @media all and (min-width: 1024px) {
   .entete {
     width: 60%;
@@ -258,37 +261,93 @@ img {
     .contenu2 .content {
       font-size: 12px;
       line-height: 28px; } }
-.partie3 {
-  font-family: sans-serif; }
-  .partie3 .part3logo {
-    text-align: center;
-    padding: 10%; }
-  .partie3 .part3text p:first-child {
-    color: #258AFF;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold; }
-  .partie3 .part3text p:last-child {
-    line-height: 40px;
-    color: grey; }
-  .partie3 .part3text h2 {
-    font-size: 25px;
-    line-height: 40px; }
-  .partie3 .photos2 {
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    max-width: 400px;
-    -webkit-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.58);
-    box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.58); }
-
-.part3logo .logo1 {
+.logo1 {
   background-color: yellow;
   border: 1px solid yellow;
   border-radius: 100%;
   padding: 3%;
   filter: invert(100%); }
 
+.titre3 {
+  text-align: center; }
+
+.partietexte3 {
+  text-align: center; }
+
+.logologo {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center; }
+
+.photos2 {
+  box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.58); }
+
+@media all and (min-width: 1024px) {
+  .partie3 {
+    display: flex;
+    justify-content: center; }
+    .partie3 .texte3 {
+      margin-top: 30px;
+      font-family: sans-serif; }
+      .partie3 .texte3 h2 {
+        font-size: 40px;
+        padding-right: 80px;
+        letter-spacing: 1px;
+        margin-top: 0px; }
+      .partie3 .texte3 .design {
+        color: blue;
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-size: 15px; }
+      .partie3 .texte3 .textt {
+        font-size: 15px;
+        padding-right: 150px;
+        color: grey; }
+    .partie3 .photos2 {
+      margin-top: 50px;
+      width: 600px;
+      height: auto;
+      box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.58); }
+    .partie3 .grille {
+      display: grid;
+      margin-top: 50px;
+      grid-gap: 5px;
+      grid-row-gap: 0px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3);
+      grid-template-areas: "lo   lo" "tr1   tr2" "tex1 tex2"; }
+      .partie3 .grille .logo1 {
+        grid-area: lo;
+        width: 20px;
+        border: 0.5px;
+        padding: 10px;
+        margin-right: 260px; }
+      .partie3 .grille .titre3 {
+        grid-area: tr1;
+        text-align: left;
+        border: 1px solid red;
+        width: 150px;
+        font-size: 15px; }
+      .partie3 .grille .titre4 {
+        grid-area: tr2;
+        text-align: left;
+        border: 1px solid red;
+        width: 160px;
+        font-size: 15px; }
+      .partie3 .grille .partietexte3 {
+        grid-area: tex1;
+        border: 1px solid red;
+        margin-bottom: 100px;
+        margin-top: 0px;
+        margin-right: 50px;
+        text-align: left; }
+      .partie3 .grille .partietexte31 {
+        grid-area: tex2;
+        text-align: left;
+        margin-top: 0px;
+        margin-right: 50px; }
+    .partie3 div {
+      border: 1px solid red; } }
 #Page4 {
   background-color: #e3eef8; }
   #Page4 .partie4 {
