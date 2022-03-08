@@ -447,12 +447,15 @@ img {
 #Partie5 {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  align-items: space-around;
   padding-top: 35px;
   padding-bottom: 50px;
-  background-color: #192f48; }
+  background-color: #192f48;
+  min-width: auto;
+  border: 1px solid red; }
   #Partie5 .headp5 {
-    margin-left: 40px; }
+    align-items: center;
+    border: 1px solid red; }
     #Partie5 .headp5 .h2white {
       color: #ffffff;
       text-transform: uppercase;
@@ -464,12 +467,13 @@ img {
       color: #ffffff; }
   #Partie5 .basic {
     background-color: #2b405a;
+    border: 1px solid red;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
     color: #ffffff;
-    border-radius: 5px;
-    width: 300px;
-    height: 580px;
-    margin-left: 40px;
-    margin-right: 40px; }
+    border-radius: 5px; }
     #Partie5 .basic .basictitle {
       color: #e5e5e5;
       text-transform: uppercase; }
@@ -494,7 +498,6 @@ img {
           text-decoration: line-through;
           color: #878b90; }
     #Partie5 .basic button {
-      margin-left: 40px;
       color: #ffffff;
       background-color: #258aff;
       border-radius: 8px;
@@ -510,28 +513,35 @@ img {
     background-color: #ffffff;
     color: #1f1f1f;
     border-radius: 5px;
-    width: 300px;
-    height: 580px;
-    margin-left: 40px;
-    margin-right: 40px; }
+    display: flex;
+    flex-direction: column;
+    min-width: auto; }
     #Partie5 .pro .protitle {
       color: #1f1f1f;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      justify-content: space-between;
+      border: 1px solid red;
+      display: flex;
+      width: auto;
+      min-width: auto;
+      padding: 5px; }
       #Partie5 .pro .protitle .pop {
         background-color: #4eab08;
         color: #ffffff;
         padding: 8px;
         font-size: 13px;
-        border-radius: 15px;
-        margin-left: 130px; }
-    #Partie5 .pro p {
-      padding-top: 30px;
-      margin-left: 40px;
-      margin-bottom: 20px; }
+        border-radius: 15px; }
+      #Partie5 .pro .protitle p {
+        padding-top: 30px;
+        border: 1px solid red; }
     #Partie5 .pro .proline {
       font-size: 12px;
-      width: 230px;
-      color: #b3b3b3; }
+      color: #b3b3b3;
+      border: 1px solid red;
+      display: flex;
+      align-items: space-around;
+      min-width: auto;
+      max-width: auto; }
     #Partie5 .pro ul {
       padding-top: 20px;
       padding-bottom: 30px;
