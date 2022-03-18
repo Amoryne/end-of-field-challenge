@@ -78,7 +78,7 @@ body{
 .container{
 	max-width:0 auto;
 	margin: 10%;
-  border:1px solid green;
+
   position: relative;
 }
 
@@ -90,7 +90,7 @@ body{
    .container{
 	margin:0 auto;
 	max-width: 900px;
-  
+  margin-top:30px;
    }
 }
 
@@ -105,7 +105,10 @@ img{
   text-decoration: none;
   color: black;
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 20px;
+  border:1px solid red;
+  display: flex;
+align-items: center;
 }}
 @media all and(max-width: 600px){
   .shade{width: auto;
@@ -184,7 +187,7 @@ transition: background 0.3s ease-in, transform 0.2s ease-in-out;
 
 .email{
   display: flex;
-  border:1px solid red;
+ 
   justify-content: center;
   align-items:space-between;
   box-sizing:border-box;
@@ -209,7 +212,7 @@ transition: background 0.3s ease-in, transform 0.2s ease-in-out;
 @media all and(min-width: 1024px)
 {
   .email{
-    border:1px solid blue;
+    
    width:auto;
    height: auto;
    display: flex;
@@ -248,13 +251,13 @@ transition: background 0.3s ease-in, transform 0.2s ease-in-out;
 
   }
   h3{font-family: sans-serif;
-    border:1px solid blue;
+    
     padding-left:10px;
     margin-bottom:8px;}
  
 }
 .tr{
-  border: 1px solid red;
+  
 
   p{
     font-family: sans-serif;
@@ -271,7 +274,7 @@ transition: background 0.3s ease-in, transform 0.2s ease-in-out;
 }
 @media all and (min-width: 1024px){
 .tableau{
-  div,p{border:1px solid green;}
+  div,p{}
   display: flex;
   flex-direction: columns;
   width: auto;
@@ -302,12 +305,12 @@ margin-right:auto;
 display:block;
 max-width: 400px;
   transform:translateY(-120px);
-  border:1px solid red;
+  
   margin-bottom:-120px;
   
 }
 .textimg{
-  border:1px solid red;
+ 
   
   color:white;
   margin-bottom: 100px;
@@ -337,7 +340,7 @@ max-width: 400px;
 
 @media all and (min-width: 1024px){
 .contenu2{
-  border:1px solid red;
+  
   display: flex;
   align-items: flex-start;
  .tel{margin-right:80px;
@@ -387,7 +390,7 @@ max-width: 400px;
 
   .logo1{
   background-color: yellow;
-  border:1px solid yellow;
+ 
   border-radius:100%;
   padding:3%;
   filter:invert(100%);}
@@ -396,7 +399,7 @@ max-width: 400px;
   // }
 .titre3{text-align: center;}
 .partietexte3{text-align: center;}
-.logologo{border:1px solid red;
+.logologo{
 display: flex;
 justify-content: center;}
 .photos2{box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.58);}
@@ -444,16 +447,16 @@ margin-right:260px;
 .titre3{grid-area: tr1;
 
 text-align: left;
-border:1px solid red;
+
 width:150px;
 font-size: 15px;}
 .titre4{grid-area: tr2;
 text-align: left;
-border:1px solid red;
+
 width:160px;
 font-size: 15px;}
 .partietexte3{grid-area: tex1;
-  border:1px solid red;
+  
   margin-bottom:100px;
   margin-top:0px;
   margin-right:50px;
@@ -468,7 +471,7 @@ margin-right:50px;
 
 
     }
-    div{border:1px solid red;}
+    
   
     }
 
@@ -543,6 +546,7 @@ margin-right:50px;
             }
           }
         }
+         @media all and (max-width: 768px){
         .partie4-1-bis {
           display: none;
           flex-direction: column;
@@ -576,12 +580,14 @@ margin-right:50px;
                 padding-top: 15px;
                 width: 43px;
                 height: 43px;
-              }
+              }}
             }
           }
         }
         
       }
+
+      
       div {
         .list {
           margin-top: 50px;
@@ -611,7 +617,7 @@ margin-right:50px;
     padding-bottom: 50px;
     background-color: #192f48;
     min-width: auto;
-    border:1px solid red;
+    
 
     .headp5 {
       // margin-left: 40px;
@@ -633,7 +639,6 @@ margin-right:50px;
     .basic {
       background-color: #2b405a;
       
-     border:1px solid red;
       min-width: auto;
       display:flex;
       flex-direction: column;
@@ -707,7 +712,7 @@ margin-right:50px;
         color: #1f1f1f;
         text-transform: uppercase; 
           justify-content: space-between;
-          border:1px solid red;
+         
           display: flex;
           width: auto;
           min-width: auto;
@@ -726,7 +731,7 @@ margin-right:50px;
         // margin-left: 40px;
         // margin-bottom: 20px;
         // align-items: space-around;
-        border:1px solid red;
+        
 
 
         
@@ -737,7 +742,7 @@ margin-right:50px;
         font-size: 12px;
         // width: 230px;
         color: #b3b3b3; 
-        border:1px solid red;
+        
         display: flex;
         align-items: space-around;
         min-width: auto;
@@ -777,6 +782,20 @@ margin-right:50px;
       }
     }
   }
+
+// @media all and (min-width: 1024px){
+//   .position-part5{
+//     display: flex;
+//     border:1px solid blue;
+// height: 500px;
+// width:400px;
+// margin:20px;
+// .pro{
+//   height: 100%;
+// }
+
+//   }
+// }
   #Page6 {
     display: flex;
     flex-direction: column;
@@ -835,6 +854,7 @@ margin-right:50px;
     filter: invert(49%) sepia(93%) saturate(3297%) hue-rotate(196deg)
       brightness(100%) contrast(101%);
   }
+
 
 
 

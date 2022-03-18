@@ -8,7 +8,6 @@ body {
 .container {
   max-width: 0 auto;
   margin: 10%;
-  border: 1px solid green;
   position: relative; }
 
 @media all and (min-width: 1024px) {
@@ -17,7 +16,8 @@ body {
 
   .container {
     margin: 0 auto;
-    max-width: 900px; } }
+    max-width: 900px;
+    margin-top: 30px; } }
 img {
   max-width: 100%;
   height: auto; }
@@ -29,7 +29,10 @@ img {
     text-decoration: none;
     color: black;
     font-family: sans-serif;
-    font-size: 30px; }
+    font-size: 20px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center; }
 
 @media all and (max-width: 600px) {
   .shade {
@@ -105,7 +108,6 @@ img {
       margin-bottom: 0px; } }
 .email {
   display: flex;
-  border: 1px solid red;
   justify-content: center;
   align-items: space-between;
   box-sizing: border-box; }
@@ -127,7 +129,6 @@ img {
 
 @media all and (min-width: 1024px) {
   .email {
-    border: 1px solid blue;
     width: auto;
     height: auto;
     display: flex;
@@ -160,12 +161,10 @@ img {
     filter: invert(56%) sepia(73%) saturate(4337%) hue-rotate(163deg) brightness(97%) contrast(101%); }
   .titre1 h3 {
     font-family: sans-serif;
-    border: 1px solid blue;
     padding-left: 10px;
     margin-bottom: 8px; }
 
 .tr {
-  border: 1px solid red;
   margin-left: 40px;
   padding: 0px;
   width: auto; }
@@ -182,8 +181,6 @@ img {
     flex-direction: columns;
     width: auto;
     margin-top: 150px; }
-    .tableau div, .tableau p {
-      border: 1px solid green; }
     .tableau .tr {
       margin-left: 30px;
       margin-top: 10px; }
@@ -202,11 +199,9 @@ img {
   display: block;
   max-width: 400px;
   transform: translateY(-120px);
-  border: 1px solid red;
   margin-bottom: -120px; }
 
 .textimg {
-  border: 1px solid red;
   color: white;
   margin-bottom: 100px;
   font-family: sans-serif; }
@@ -246,7 +241,6 @@ img {
 
 @media all and (min-width: 1024px) {
   .contenu2 {
-    border: 1px solid red;
     display: flex;
     align-items: flex-start; }
     .contenu2 .tel {
@@ -263,7 +257,6 @@ img {
       line-height: 28px; } }
 .logo1 {
   background-color: yellow;
-  border: 1px solid yellow;
   border-radius: 100%;
   padding: 3%;
   filter: invert(100%); }
@@ -275,7 +268,6 @@ img {
   text-align: center; }
 
 .logologo {
-  border: 1px solid red;
   display: flex;
   justify-content: center; }
 
@@ -325,18 +317,15 @@ img {
       .partie3 .grille .titre3 {
         grid-area: tr1;
         text-align: left;
-        border: 1px solid red;
         width: 150px;
         font-size: 15px; }
       .partie3 .grille .titre4 {
         grid-area: tr2;
         text-align: left;
-        border: 1px solid red;
         width: 160px;
         font-size: 15px; }
       .partie3 .grille .partietexte3 {
         grid-area: tex1;
-        border: 1px solid red;
         margin-bottom: 100px;
         margin-top: 0px;
         margin-right: 50px;
@@ -345,9 +334,7 @@ img {
         grid-area: tex2;
         text-align: left;
         margin-top: 0px;
-        margin-right: 50px; }
-    .partie3 div {
-      border: 1px solid red; } }
+        margin-right: 50px; } }
 #Page4 {
   background-color: #e3eef8; }
   #Page4 .partie4 {
@@ -401,35 +388,36 @@ img {
           padding-top: 15px;
           width: 43px;
           height: 43px; }
-    #Page4 .partie4 div .partie4-1-bis {
-      display: none;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      background-color: #ffffff;
-      width: auto;
-      padding-top: 5px; }
-      #Page4 .partie4 div .partie4-1-bis .font15px {
-        font-size: 15px;
-        margin-bottom: 20px;
-        line-height: 32px;
-        margin-left: 10px; }
-      #Page4 .partie4 div .partie4-1-bis .jobgris {
-        color: #666666;
-        font-size: 12px;
-        margin-top: -20px;
-        margin-left: 10px; }
-      #Page4 .partie4 div .partie4-1-bis .partie4-1-mini {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
+    @media all and (max-width: 768px) {
+      #Page4 .partie4 div .partie4-1-bis {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
         align-content: center;
+        background-color: #ffffff;
         width: auto;
-        margin-left: 10px; }
-        #Page4 .partie4 div .partie4-1-bis .partie4-1-mini div .imgicons {
-          padding-top: 15px;
-          width: 43px;
-          height: 43px; }
+        padding-top: 5px; }
+        #Page4 .partie4 div .partie4-1-bis .font15px {
+          font-size: 15px;
+          margin-bottom: 20px;
+          line-height: 32px;
+          margin-left: 10px; }
+        #Page4 .partie4 div .partie4-1-bis .jobgris {
+          color: #666666;
+          font-size: 12px;
+          margin-top: -20px;
+          margin-left: 10px; }
+        #Page4 .partie4 div .partie4-1-bis .partie4-1-mini {
+          display: flex;
+          flex-direction: row;
+          justify-content: left;
+          align-content: center;
+          width: auto;
+          margin-left: 10px; }
+          #Page4 .partie4 div .partie4-1-bis .partie4-1-mini div .imgicons {
+            padding-top: 15px;
+            width: 43px;
+            height: 43px; } }
     #Page4 .partie4 div .list {
       margin-top: 50px;
       margin-bottom: 50px;
@@ -451,8 +439,7 @@ img {
   padding-top: 35px;
   padding-bottom: 50px;
   background-color: #192f48;
-  min-width: auto;
-  border: 1px solid red; }
+  min-width: auto; }
   #Partie5 .headp5 {
     align-items: center;
     border: 1px solid red; }
@@ -467,7 +454,6 @@ img {
       color: #ffffff; }
   #Partie5 .basic {
     background-color: #2b405a;
-    border: 1px solid red;
     min-width: auto;
     display: flex;
     flex-direction: column;
@@ -520,7 +506,6 @@ img {
       color: #1f1f1f;
       text-transform: uppercase;
       justify-content: space-between;
-      border: 1px solid red;
       display: flex;
       width: auto;
       min-width: auto;
@@ -532,12 +517,10 @@ img {
         font-size: 13px;
         border-radius: 15px; }
       #Partie5 .pro .protitle p {
-        padding-top: 30px;
-        border: 1px solid red; }
+        padding-top: 30px; }
     #Partie5 .pro .proline {
       font-size: 12px;
       color: #b3b3b3;
-      border: 1px solid red;
       display: flex;
       align-items: space-around;
       min-width: auto;
